@@ -14,7 +14,7 @@ import { NodeList } from './node-list';
 import './index.less';
 
 interface NodePanelRenderProps extends NodePanelRenderPropsDefault {
-  panelProps: {
+  panelProps?: {
     fromPort?: WorkflowPortEntity; // 从哪个端口添加 From which port to add
     enableNodePlaceholder?: boolean;
   };
